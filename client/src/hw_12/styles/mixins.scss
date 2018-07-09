@@ -1,0 +1,22 @@
+@mixin trienglePosition {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+@mixin icon {
+  content: '\e316';
+  font-size: 24px;
+}
+
+@mixin absoluteCenter {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+@mixin flexColumnStartCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
